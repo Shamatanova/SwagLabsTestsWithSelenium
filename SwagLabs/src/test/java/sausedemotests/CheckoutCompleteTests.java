@@ -70,10 +70,6 @@ public class CheckoutCompleteTests extends BaseTest {
 
         checkoutCompletePage.clickBackButton();
 
-        var homePage = new HomePage(driver);
-        var title = homePage.titleIsDisplayed();
-        var products = homePage.productsAreDisplayed();
-        var shoppingCart = homePage.shoppingCartIsVisible();
 
     }
 }
